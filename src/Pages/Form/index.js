@@ -225,6 +225,7 @@ const Form = ({navigation}) => {
                     <Icon type='FontAwesome5' name="id-card" style={{fontSize:RFValue(20, 680), marginLeft:'5%', marginRight:'3%', alignSelf:'center', color:'black'}}/>
                     <TextInput  style={styles.UserTextInput}
                                 autoCapitalize='none'
+                                keyboardType='numeric'
                                 placeholder="No KTP"
                                 maxLength = {16}
                                 placeholderTextColor = "black"
